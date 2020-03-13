@@ -1,0 +1,80 @@
+/*
+
+font-family: 'Roboto Mono', sans-serif;
+font-family: 'Bebas Neue', monospace;
+
+*/
+*{
+	box-sizing:border-box;
+	font-family: 'Roboto Mono', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+h1 {
+	font-family: 'Bebas Neue', monospace;	
+	font-size: 65px;
+}
+p{
+	font-size: 30px;
+}
+
+.social {
+	background-color: rgba(255, 255, 255, .9);
+	width: 150px;
+	padding: 10px;
+	position: fixed;
+	right: 0;
+	top: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.social img {
+	width: 25px;
+}
+.top{
+	background-color: #674681;
+	display: flex;
+	padding: 50px;
+	background-image: url(jcole1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.top h1, .top p {
+	width: 100%;
+}
+.left {
+	width: 45%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.right {
+	width: 55%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.right .album, .left album {
+	width: 40%;
+}
+.right .album img, .left .album img {
+	width: 100%;
+}
+.bottom{
+	background-color: #613A80;
+	text-align: center;
+	padding: 50px;
+	background-image: url(tour-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.bottom h1, .bottom p {
+	color: #FF0000;
+}
+html{
+	scroll-behavior: smooth;
+}
